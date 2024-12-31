@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('https://i.pcmag.com/imagery/articles/02AggY7IwxRPVlAZGZ14YiU-39..v1689514496.jpg');
+
+  background-size:     cover;                      
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.Conatianer {
+  background-color: #dccef6;
+  padding: 1rem;
+  width: 50vw;
+  height: 70%;
+  margin: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background:transparent; */
+  border-radius: 20px;
+}
+.span{
+  background-color: rgb(202, 125, 202);
+  font-size: 3rem;
+  font-weight: 400;
+  color: white;
+  height: 0.5rem;
+  width: 20px;
+  border-radius: 12px;
+  border:  no;
+  margin:8px 8px 0px 0px;
+  padding: 5px;
+}
+.text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2rem auto;
+  /* margin: auto; */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.text {
+  padding: 0 2rem;
+  margin-bottom: 10px;
+}
+
+.Screen {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  margin: auto;
+  border: 1px solid black;
+  background: rgb(197, 194, 194);
+  opacity: 0.8;
+  border-radius: 1rem;
+
+}
+
+.text2 {
+  height: 20vh;
+  color: black;
+  width: 40vw;
+  border-radius: 12px;
+  margin-top: 12px;
+  padding: 15px;
+}
+
+.language {
+  height: 2rem;
+  border: none;
+  border-radius: 6px;
+  border: 1px solid gray;
+  width: 20px;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.btns button {
+  height: 3rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+@media (min-width: 600px) {
+  .text2 {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .Conatianer {
+    width: 70vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .Conatianer {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Conatianer {
+    width: 50vw;
+  }
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30% ;
+  height: 100%;
+  width: 100%;
+}
+.Conatianer {
+  align-items: center;
+  padding: 1rem;
+  height: 90vh;
+  width: 50vw;
+  margin-top: 2rem;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2rem auto;
+  margin-bottom: 10px;
+}
+.text p{
+  font-size: 1rem;
+}
+
+
+
+.text {
+  padding:0 2rem ;
+  margin-bottom: 10px;
+
+}
+.text h1,p{
+  text-align: center;
+}
+.Screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text2{
+  height: 40vh;
+  width: 40vw;
+  border-radius: 12px;
+  margin-top: 12px;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif; ;
+}
+.language{
+  height: 2rem;
+  width: 1rem;
+  margin-right: 4px;
+  margin-top: 8px;
+  border:  1px solid gray;
+  width: 10px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin: 2rem 2rem; 
+}*/
+.btns button {
+  align-items: center;
+  height: 3rem;
+  width: 10rem;
+  color: white;
+  border-radius: 5px;
+}
+.btns .b1{
+  background-color: rgb(113, 185, 113);
+}
+.btns .b2{
+  background-color: rgb(197, 79, 79);
+}
+.btns .b3{
+  background-color:rgb(144, 60, 144);
+}
+.btns .b4{
+  background-color: rgb(92, 92, 215);
+}
+.btns .b1:hover{
+  background-color: rgb(60, 202, 60);
+}
+.btns .b3:hover{
+  background-color: rgb(180, 23, 180);
+}
+.btns .b4:hover{
+  background-color: rgb(37, 37, 206);
+}
+.btns{
+  display: flex;
+  flex-wrap:wrap;
+} 
